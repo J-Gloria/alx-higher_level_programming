@@ -1,64 +1,23 @@
-# Python - if/else, loops, functions
+# 0x01. Python - if/else, loops, functions
 
-## 0-positive_or_negative.py
-This program will assign a random signed number to the variable `number` each
-time it is executed. Complete the source code in order to print whether
-the number stored in the variable `number` is positive or negative.
-- You can find the source code `here`
-- The variable `number` will store a different value every time you will run
-  this program
-- You don’t have to understand what `import`, `random. randint` do. Please do 
-  not touch this code
-- The output of the program should be:
-	- The number, followed by
-	    - if the number is greater than 0: `is positive`
-		- if the number is 0: `is zero`
-		- if the number is less than 0: `is negative`
-	- followed by a new line
-
-## 1-last_digit.py 
-This program will assign a random signed number to the variable `number` each
-time it is executed. Complete the source code in order to print the last
-digit of the number stored in the variable `number`.
-- You can find the source code `here`
-- The variable `number` will store a different value every time you will run this
-  program
-- You don’t have to understand what import, `random.randint` do. Please do not
-  touch this code. This line should not change: `number = random.randint(-10000, 10000)`
-- The output of the program should be:
-	- The string `Last digit of`, followed by
-	- the number, followed by
-	- the string `is`, followed by the last digit of `number`, followed by
-		- if the last digit is greater than 5: the string `and is greater than 5`
-		- if the last digit is 0: the string `and is 0`
-		- if the last digit is less than 6 and not 0: the string and `is less than 6 and not 0`
-	- followed by a new line
-
-## 2-print_alphabet.py 
-A program that prints the ASCII alphabet, in lowercase, not followed by a
-new line.
-- You can only use one `print` function with string format
-- You can only use one loop in your code
-- You are not allowed to store characters in a variable
-- You are not allowed to import any module
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Table of contents
+Files | Description
+----- | -----------
+[0-positive_or_negative.py](./0-positive_or_negative.py) | Python script that prints whether a given random number is positive or negative
+[1-last_digit.py](./1-last_digit.py) | Python script that prints the last digit of a given random number
+[2-print_alphabet.py](./2-print_alphabet.py) | Python script that prints the ASCII alphabet, in lowercase, not followed by a new line
+[3-print_alphabt.py](./3-print_alphabt.py) | Python script that prints the ASCII alphabet, in lowercase, except e and q
+[4-print_hexa.py](./4-print_hexa.py) | Python script that prints all numbers from 0 to 98 in decimal and in hexadecimal
+[5-print_comb2.py](./5-print_comb2.py) | Python script that prints numbers from 0 to 99
+[6-print_comb3.py](./6-print_comb3.py) | Python script that prints all possible different combinations of two digits
+[7-islower.py](./7-islower.py) | Python function that checks for lowercase character
+[8-uppercase.py](./8-uppercase.py) | Python function that prints a string in uppercase followed by a new line
+[9-print_last_digit.py](./9-print_last_digit.py) | Python function that prints the last digit of a number
+[10-add.py](./10-add.py) | Python function that adds two integers and returns the result
+[11-pow.py](./11-pow.py) | Python function that computes a to the power of b and return the value
+[12-fizzbuzz.py](./12-fizzbuzz.py) | Python function that prints the numbers from 1 to 100, but replaces multiples of 3, 5 and 3 and 5 by Fizz, Buzz and Fizzbuzz
+[13-insert_number.c](./13-insert_number.c) | function in C that inserts a number into a sorted singly linked list
+[lists.h](./lists.h) | header file for the C program above
+[100-print_tebahpla.py](./100-print_tebahpla.py) | Python script that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase
+[101-remove_char_at.py](./101-remove_char_at.py) | Python script that creates a copy of the string, removing the character at the position n
+[102-magic_calculation.py](./102-magic_calculation.py) | Python function created from a bytecode
